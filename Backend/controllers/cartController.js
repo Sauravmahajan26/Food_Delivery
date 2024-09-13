@@ -16,7 +16,7 @@ const addToCart = async (req, res) => {
     res.json({ success: true, message: "added to cart" });
   } catch (error) {
     console.log(error);
-    res.json({ success: false, message: "Error" });
+    res.json({ success: false, message: "Error done" });
   }
 };
 
